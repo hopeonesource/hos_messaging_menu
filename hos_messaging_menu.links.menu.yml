@@ -1,5 +1,5 @@
 hos_messaging_menu.main_menu:
-  title: 'HOS Messaging***'
+  title: 'HOS Messaging'
   description: 'Manage HOS messaging.'
   route_name: 'hos_messaging_menu.main_menu'
   weight: -9
