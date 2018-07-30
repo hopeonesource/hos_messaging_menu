@@ -1,6 +1,7 @@
 # About hos_messaging_menu module
-This module is used to generate menu items of all modules that deal with managing text messaging. 
-Menu items are created and accessible on route (/admin/hos_main_menu).
+This module is used to generate menu items for all modules that deal with managing text messaging. 
+Menu items are created and accessible on route (/admin/hos_main_menu).<br>
+A list of modules from which the menu items will be generated can be found in <b>hos_messaging_menu.modules.yml</b> file.
 
 ## Contributing
 
