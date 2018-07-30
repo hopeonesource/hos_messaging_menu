@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains hos_messaging_menu.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function hos_messaging_menu_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the hos_messaging_menu module.
+    case 'help.page.hos_messaging_menu':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Adds menu links dynamically') . '</p>';
+      return $output;
+
+    default:
+  }
+}

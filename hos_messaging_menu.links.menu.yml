@@ -1,0 +1,10 @@
+hos_messaging_menu.main_menu:
+  title: 'HOS Messaging***'
+  description: 'Manage HOS messaging.'
+  route_name: 'hos_messaging_menu.main_menu'
+  weight: -9
+  parent: 'system.admin'
+
+hos_messaging_menu.main_menu_dynamic:
+  class: Drupal\hos_messaging_menu\Plugin\Menu\MessagingMenuLink
+  deriver: Drupal\hos_messaging_menu\Plugin\Derivative\MessagingMenuLink

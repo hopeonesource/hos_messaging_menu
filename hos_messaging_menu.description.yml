@@ -1,0 +1,10 @@
+route_name:
+  hos_sms_dispatcher.hos_message_manager_form:
+    title: 'HOS Messaging Settings'
+    description: 'Manages sms settings'
+  hos_sms_dispatcher.message_test_form:
+    title: 'HOS Message Test'
+    description: 'Test outgoing message'
+  message_archiver.message_archive_form:
+    title: 'Message Archives'
+    description: 'Sent message texts archived'

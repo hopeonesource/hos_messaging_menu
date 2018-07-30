@@ -1,0 +1,7 @@
+hos_messaging_menu.main_menu:
+  path: 'admin/hos_main_menu'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Main Messaging'
+  requirements:
+    _permission: 'access administration pages'
