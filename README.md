@@ -14,7 +14,7 @@ More information on how to use Github issues can be found <a href='https://guide
 1. pick an issue from the Issue queue
 2. check out a new branch and work on it (use feature name or issue number)
 3. Submit a Pull request
-4. Once changes have been agreed upon, then your changes will be merged back into the master branch in a single.
+4. Once changes have been checked and agreed upon, then they will be merged back into the master branch.
 
 ### Something to remember
 * Every commit message should describe why the code was changed or at a minimum what the change accomplished.
